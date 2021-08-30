@@ -1,4 +1,6 @@
-
+a :hover {
+  color: white;
+}
 
 .overlay {
   position: absolute;
@@ -47,4 +49,8 @@
 .hvr-chg-delay {
   transition: all .9s ease;
   -webkit-transition: all .9s ease;
+}
+
+.white-hvr-link :hover {
+  color: white;
 }
