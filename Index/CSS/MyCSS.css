@@ -1,8 +1,4 @@
-.image1 {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
 
 .overlay {
   position: absolute;
@@ -14,11 +10,22 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #343A40;
+}
+
+.hoverimage {
+  display: block;
+  width: 90%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
 }
 
 .container:hover .overlay {
-  opacity: 0.5;
+  opacity: .8;
 }
 
 .hovertext {
