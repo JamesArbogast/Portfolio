@@ -54,15 +54,20 @@
   <header class="mb-auto">
     <div>
       <nav class="nav nav-masthead justify-content-between float-md-end mb-4">
-        <a class="nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#">Home</a>
+        <a class="nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#home">Home</a>
         <a class="nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#projects">Projects</a>
+        <a class="nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#education">Education</a>
         <a class="white-hvr-link nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#experience">Experience</a>
       </nav>
     </div>
   </header>
   <main class="px-3 w-90">
+    <a class="top-link hide" href="" id="js-top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
+      <span class="screen-reader-text">Back to top</span>
+    </a>
     <div class="m-4 d-flex-column align-items-center">
-      <h1 style="color: #c9c9c9;">James Arbogast</h1>
+      <h1 style="color: #c9c9c9;" id="home">James Arbogast</h1>
       <p class="lead"><span class="mintgreen">Software Engineer</span> & <span class="mintgreen">Game Developer</span></p>
       <div>
         <img src="https://avatars.githubusercontent.com/u/19912660?v=4" style="border-radius: 50%; height: 300px; box-shadow: #9ef3d085 2px 2px 3px;"/>
@@ -113,23 +118,31 @@
             </div>
           </div>
           <div class="m-4 container">
-            <img src="Images/mongodb_logo160.png" class="img-fluid" alt="Unity">
+            <img src="Images/express210.png" class="img-fluid" alt="Unity" style="height: 160px;">
             <div class="overlay">
-              <div class="hovertext">mongoDB</div>
+              <div class="hovertext">Express</div>
             </div>
           </div>
-          <div class="m-4 container">
-            <img src="../node_modules/programming-languages-logos/src/html/html_128x128.png" class="img-fluid " alt="Unreal Engine">
-            <div class="overlay">
-              <div class="hovertext">HTML5</div>
-            </div>
           </div>
-          <div class="m-4 container">
-            <img src="Images/CSS3_logo_128.png" class="img-fluid " alt="Unreal Engine">
-            <div class="overlay">
-              <div class="hovertext">CSS3</div>
+          <div id="row-logos" class="d-flex align-items-center justify-content-between">
+            <div class="m-4 container">
+              <img src="Images/mongodb_logo160.png" class="img-fluid" alt="Unity">
+              <div class="overlay">
+                <div class="hovertext">mongoDB</div>
+              </div>
             </div>
-          </div>
+            <div class="m-4 container">
+              <img src="../node_modules/programming-languages-logos/src/html/html_128x128.png" class="img-fluid " alt="Unreal Engine">
+              <div class="overlay">
+                <div class="hovertext">HTML5</div>
+              </div>
+            </div>
+            <div class="m-4 container">
+              <img src="Images/CSS3_logo_128.png" class="img-fluid " alt="Unreal Engine">
+              <div class="overlay">
+                <div class="hovertext">CSS3</div>
+              </div>
+            </div>
           <div class="m-4 container">
             <img src="Images/mysql_logo350.png" class="img-fluid" alt="Unity">
             <div class="overlay">
@@ -196,19 +209,17 @@
                       <div class="d-flex h-100 text-center align-items-center mt-4">
                           <div class="w-100 text-dark">
                               <h1 class="display-3">Twelve Pins Bowling</h1>
-                              <h3 class="display-5">Using C# / .Net with SQL</h3>
-                              <img style="height: 100px;" src="/Portfolio/Index/Images/githubiconblack.png">
+                              <h3 class="display-5">Using C#/.Net with MySQL</h3>
                           </div>
                         </div>
-                    </div>
-              </header>
+                      </div>
+                    </header>
+                    <a href="https://github.com/JamesArbogast/twelve_pins"><img style="height: 100px;" src="/Portfolio/Index/Images/github_logo_white_128x128.png"></a>
               <hr>
               <header id="header">
                 <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
-                <a href="https://github.com/JamesArbogast/Portfolio">
                   <div class="overlay">
                   </div>
-                </a>
               
                 <!-- The HTML5 video element that will create the background video on the header -->
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -253,34 +264,55 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-8 mx-auto">
-                      <p>Check out my GitHub to see the rest of my projects.</p>
-                      <p class="mb-0">
-                        Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
-                      </p>
+                      <p>Check out my <a href="https://github.com/JamesArbogast" target="_blank" class="mintgreen hvr-chg-delay">GitHub</a> to see the rest of my projects.</p>
                     </div>
                   </div>
                 </div>
               </section>
               <hr>
-              <div id="experience">
-                <h3 style="color: #c9c9c9; margin-top: 20px">Education</h3>
+              <div>
+                <h3 style="color: #c9c9c9; margin-top: 20px" id="education">Education</h3>
                   <div id="row-logos" class="d-flex align-items-center justify-content-around">
                     <div class="m-4 container">
-                      <img src="Images/Coding_Dojo.png" class="img-fluid " alt="Unreal Engine">
+                      <img src="Images/Coding_Dojo.png" class="img-fluid" alt="Unreal Engine" style="height: 220px;">
                       <div class="overlay">
-                        <div class="hovertext">Coding Dojo<br><br>May 2021 -<br>August 2021</div>
+                        <div class="hovertext">Coding Dojo<br><br><span style="font-size: 15px;">May 2021 -<br>August 2021</span></div>
                       </div>
                   </div>
                     <div class="m-4 container">
-                      <img src="Images/AU_logo300.png" class="img-fluid " alt="Unreal Engine">
+                      <img src="Images/AU_logo300.png" class="img-fluid " alt="Unreal Engine" style="height: 220px;">
                       <div class="overlay">
-                        <div class="hovertext">American University<br><br>August 2012 - <br>May 2016<br><br>BS in Business Administration</div>
+                        <div class="hovertext">American University<br><br><span style="font-size: 15px;">August 2012 - <br>May 2016<br>BS in Business Administration</span></div>
                       </div>
                   </div>
                     <div class="m-4 container">
-                      <img src="Images/CUHK300.png" class="img-fluid " alt="Unreal Engine">
+                      <img src="Images/CUHK300.png" class="img-fluid " alt="Unreal Engine" style="height: 220px;">
                       <div class="overlay">
-                        <div class="hovertext">Chinese University of Hong Kong<br><br>Fall Semester of 2015</div>
+                        <div class="hovertext">Chinese University of Hong Kong<br><br><span style="font-size: 15px;">Fall Semester of 2015</span></div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <hr>
+                <h3 style="color: #c9c9c9; margin-top: 20px" id="experience">Experience</h3>
+                  <div id="row-logos" class="d-flex align-items-center justify-content-around">
+                    <div class="m-4 container">
+                      <img src="Images/Great Minds -White350.png" class="img-fluid " alt="Unreal Engine" style="height: 280px;">
+                      <div class="overlay">
+                        <div class="hovertext">Great Minds<br><br<span style="font-size: 15px;">May 2017 - <br>October 2018<br><br>Website Project Manager</span></div>
+                      </div>
+                    </div>
+                    <div class="m-4 container">
+                      <img src="Images/2U340.png" class="img-fluid " alt="Unreal Engine" style="height: 200px;">
+                      <div class="overlay">
+                        <div class="hovertext">2U<br><br><span style="font-size: 15px;">October 2018 -<br>May 2021<br><br>Email Marketing Specialist</span></div>
+                      </div>
+                  </div>
+                    <div class="m-4 container">
+                      <img src="Images/comingsoon400.png" class="img-fluid " alt="Unreal Engine" style="height: 220px;">
+                      <div class="overlay">
+                        <div class="hovertext">Could be you!</div>
                       </div>
                   </div>
                 </div>
