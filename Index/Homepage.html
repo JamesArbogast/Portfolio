@@ -55,15 +55,18 @@
     <div>
       <nav class="nav nav-masthead justify-content-between float-md-end mb-4">
         <a class="nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#">Home</a>
-        <a class="nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#">Projects</a>
-        <a class="white-hvr-link nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#">Experience</a>
+        <a class="nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#projects">Projects</a>
+        <a class="white-hvr-link nav-link active mintgreen hvr-chg-delay" aria-current="page" href="#experience">Experience</a>
       </nav>
     </div>
   </header>
   <main class="px-3 w-90">
-    <div class="m-4">
+    <div class="m-4 d-flex-column align-items-center">
       <h1 style="color: #c9c9c9;">James Arbogast</h1>
       <p class="lead"><span class="mintgreen">Software Engineer</span> & <span class="mintgreen">Game Developer</span></p>
+      <div>
+        <img src="https://avatars.githubusercontent.com/u/19912660?v=4" style="border-radius: 50%; height: 300px; box-shadow: #9ef3d085 2px 2px 3px;"/>
+      </div>
     </div>
     <hr style="color: white; margin-top: 20px;" class="m-4">
     <div id="languages" class="d-flex justify-content-center align-items-center w-100 mb-3">
@@ -175,7 +178,7 @@
         <h3 style="color: #c9c9c9; margin-top: 20px">Game Engines</h3>
         <hr>
         <div id="Projects">
-          <h2 style="color: #c9c9c9; margin: 100px">Projects</h2>
+          <h2 style="color: #c9c9c9; margin: 100px" id="projects">Projects</h2>
           <div id="apps">
             <div id="video-square">
               <header id="header" class="mb-4">
@@ -192,7 +195,7 @@
                     <div class="container h-100 w-100">
                       <div class="d-flex h-100 text-center align-items-center mt-4">
                           <div class="w-100 text-dark">
-                              <h1 class="display-3">Bowling Alley</h1>
+                              <h1 class="display-3">Twelve Pins Bowling</h1>
                               <h3 class="display-5">Using C# / .Net with SQL</h3>
                               <img style="height: 100px;" src="/Portfolio/Index/Images/githubiconblack.png">
                           </div>
@@ -231,15 +234,15 @@
               
                 <!-- The HTML5 video element that will create the background video on the header -->
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                  <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+                  <source src="/Portfolio/Index/Videos/Capra.mp4" type="video/mp4">
                 </video>
               
                 <!-- The header content -->
                 <div class="container h-100 w-100">
                   <div class="d-flex h-100 text-center align-items-center">
                     <div class="w-100 text-white">
-                      <h1 class="display-3">Food Ancestry</h1>
-                      <p class="lead mb-0">Python & MySQL</p>
+                      <h1 class="display-3">Capra</h1>
+                      <p class="lead mb-0">C# in Unity</p>
                     </div>
                   </div>
                 </div>
@@ -250,7 +253,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-8 mx-auto">
-                      <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are built into Bootstrap.</p>
+                      <p>Check out my GitHub to see the rest of my projects.</p>
                       <p class="mb-0">
                         Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
                       </p>
@@ -258,6 +261,30 @@
                   </div>
                 </div>
               </section>
+              <hr>
+              <div id="experience">
+                <h3 style="color: #c9c9c9; margin-top: 20px">Education</h3>
+                  <div id="row-logos" class="d-flex align-items-center justify-content-around">
+                    <div class="m-4 container">
+                      <img src="Images/Coding_Dojo.png" class="img-fluid " alt="Unreal Engine">
+                      <div class="overlay">
+                        <div class="hovertext">Coding Dojo<br><br>May 2021 -<br>August 2021</div>
+                      </div>
+                  </div>
+                    <div class="m-4 container">
+                      <img src="Images/AU_logo300.png" class="img-fluid " alt="Unreal Engine">
+                      <div class="overlay">
+                        <div class="hovertext">American University<br><br>August 2012 - <br>May 2016<br><br>BS in Business Administration</div>
+                      </div>
+                  </div>
+                    <div class="m-4 container">
+                      <img src="Images/CUHK300.png" class="img-fluid " alt="Unreal Engine">
+                      <div class="overlay">
+                        <div class="hovertext">Chinese University of Hong Kong<br><br>Fall Semester of 2015</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
   </main>
 
   <footer class="mt-auto text-white-50">
