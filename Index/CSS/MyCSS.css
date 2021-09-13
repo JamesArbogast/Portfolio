@@ -109,14 +109,15 @@ header .overlay {
   margin: 0 3em 3em 0;
   border-radius: 50%;
   padding: .25em;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
+  opacity: .5;
   background-color: #F8F8F8;
 }
   
   .top-link .show {
     visibility: visible;
-    opacity: 1;
+    opacity: .8;
   }
   
   .top-link .hide {
@@ -126,8 +127,8 @@ header .overlay {
 
   .top-link svg {
     fill: #000;
-    width: 24px;
-    height: 12px;
+    width: 18px;
+    height: 8px;
   }
 
   .top-link:hover {
