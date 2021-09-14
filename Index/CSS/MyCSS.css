@@ -1,3 +1,5 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
 a :hover {
   color: white;
 }
@@ -82,6 +84,7 @@ header video {
 
 header .vidcontainer {
   position: relative;
+  width: 60%;
   z-index: 2;
 }
 
